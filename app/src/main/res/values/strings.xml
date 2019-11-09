@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">CW</string>
+    <string name="description_hotel">Hotels Around Mbarara</string>
+    <string name="description_boutique">Boutiques Around Mbarara</string>
+    <string name="description_club">Clubs Around Mbarara</string>
+    <string name="description_bar">Bars Around Mbarara</string>
+    <string name="rwizi_description">Rwizi, like most African hotels I have stayed in, gives you about what you pay for....</string>
+    <string name="lake_description">Off Fort Portal-Kasese Road, Mbarara</string>
+    <string name="kosiya_description">We offer generously proportioned apartments, all of which feature: seating area, an en-suite bathroom, terrace or balcony, private kitchen...</string>
+    <string name="triangle_description">No description provided</string>
+    <string name="signiture_description">With a distinctive comfort for both ordinary and VIP, Signature boasts of features such as Wide Screens for football lovers....</string>
+    <string name="veg_description">With convenient parking space and room for hosting events like birthday parties and corporate meetings, Club Vegas has renowned sound systems.</string>
+    <string name="ice_description">Located in the heart of the city  at the most precious building in Town ”Eazy View”. ”Ice” as it is well known enjoyed its maiden days...</string>
+    <string name="vis_description">The oldest club in town dating back to the 1990s, is the most popular club. Housed in a storeyed building, the club is a true leisure facility</string>
+    <string name="easy_description">Mbaguta Street, Mbarara,</string>
+</resources>

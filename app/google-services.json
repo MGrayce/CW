@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "157244006449",
+    "firebase_url": "https://mu-gps.firebaseio.com",
+    "project_id": "mu-gps",
+    "storage_bucket": "mu-gps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157244006449:android:64ec187860e7030805b510",
+        "android_client_info": {
+          "package_name": "com.example.cw"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "157244006449-31rsfd808errs6i0iri85nac11ve1idn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cw",
+            "certificate_hash": "94dff296f56db4a7d5bf5b8174706db9da8cefcc"
+          }
+        },
+        {
+          "client_id": "157244006449-523e7f5l6pg3hshsrk66prj8r8ttngd9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdW_dWmKGJFBqYarNNDI-ODzot5WKj4Mw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "157244006449-523e7f5l6pg3hshsrk66prj8r8ttngd9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
