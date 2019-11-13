@@ -5,6 +5,8 @@ import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -33,6 +35,8 @@ public class Category_Adap extends RecyclerView.Adapter< CategoryViewHolder > {
     public void onBindViewHolder(final CategoryViewHolder holder, int position) {
         holder.mImage.setImageResource(categoryist.get(position).getCategoryImage());
         holder.mTitle.setText(categoryist.get(position).getcategoryName());
+        Animation moveUp = AnimationUtils.loadAnimation(mContext, R.anim.move_up);
+        holder.mCardView.startAnimation(moveUp);
         holder.mCardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -45,6 +49,8 @@ public class Category_Adap extends RecyclerView.Adapter< CategoryViewHolder > {
 //                mIntent.putExtra("Image", categoryist.get(holder.getAdapterPosition()).getCategoryImage());
                 mIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 mContext.startActivity(mIntent);
+//                Animation moveUp = AnimationUtils.loadAnimation(mContext, R.anim.move_up);
+//                holder.mCardView.startAnimation(moveUp);
             }
         });
     }

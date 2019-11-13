@@ -4,8 +4,8 @@
 
 
     <item
-        android:title="Info"
-        android:icon="@drawable/ic_info_24dp"
+        android:title="Settings"
+        android:icon="@drawable/ic_settings_black_24dp"
         android:id="@+id/info"
         app:showAsAction="always"/>
 
